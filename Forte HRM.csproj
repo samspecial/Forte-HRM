@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Forte HRM.Api\Forte HRM.Api.csproj" />
     <ProjectReference Include="..\Forte HRM.Shared\Forte HRM.Shared.csproj" />
   </ItemGroup>
 

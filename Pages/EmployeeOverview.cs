@@ -27,16 +27,16 @@ namespace Forte_HRM.Pages
 		{
 			JobCategories = new List<JobCategory>()
 			{
-				new JobCategory{Id = 1, JobCategoryName = "Pie research"},
-				new JobCategory{Id = 2, JobCategoryName = "Sales"},
-				new JobCategory{Id = 3, JobCategoryName = "Management"},
-				new JobCategory{Id = 4, JobCategoryName = "Store staff"},
-				new JobCategory{Id = 5, JobCategoryName = "Finance"},
-				new JobCategory{Id = 6, JobCategoryName = "QA"},
-				new JobCategory{Id = 7, JobCategoryName = "IT"},
-				new JobCategory{Id = 8, JobCategoryName = "Cleaning"},
-				new JobCategory{Id = 9, JobCategoryName = "Bakery"},
-				new JobCategory{Id = 9, JobCategoryName = "Bakery"}
+				new JobCategory{JobCategoryId = 1, JobCategoryName = "Pie research"},
+				new JobCategory{JobCategoryId = 2, JobCategoryName = "Sales"},
+				new JobCategory{JobCategoryId = 3, JobCategoryName = "Management"},
+				new JobCategory{JobCategoryId = 4, JobCategoryName = "Store staff"},
+				new JobCategory{JobCategoryId = 5, JobCategoryName = "Finance"},
+				new JobCategory{JobCategoryId = 6, JobCategoryName = "QA"},
+				new JobCategory{JobCategoryId = 7, JobCategoryName = "IT"},
+				new JobCategory{JobCategoryId = 8, JobCategoryName = "Cleaning"},
+				new JobCategory{JobCategoryId = 9, JobCategoryName = "Bakery"},
+				new JobCategory{JobCategoryId = 9, JobCategoryName = "Bakery"}
 			};
 		}
 
@@ -44,14 +44,14 @@ namespace Forte_HRM.Pages
 		{
 			Countries = new List<Country>
 			{
-				new Country {Id = 1, Name = "Belgium"},
-				new Country {Id = 2, Name = "Netherlands"},
-				new Country {Id = 3, Name = "USA"},
-				new Country {Id = 4, Name = "Japan"},
-				new Country {Id = 5, Name = "China"},
-				new Country {Id = 6, Name = "UK"},
-				new Country {Id = 7, Name = "France"},
-				new Country {Id = 8, Name = "Brazil"}
+				new Country {CountryId = 1, Name = "Belgium"},
+				new Country {CountryId = 2, Name = "Netherlands"},
+				new Country {CountryId = 3, Name = "USA"},
+				new Country {CountryId = 4, Name = "Japan"},
+				new Country {CountryId = 5, Name = "China"},
+				new Country {CountryId = 6, Name = "UK"},
+				new Country {CountryId = 7, Name = "France"},
+				new Country {CountryId = 8, Name = "Brazil"}
 			};
 		}
 
